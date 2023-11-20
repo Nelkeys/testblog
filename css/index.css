@@ -1,0 +1,95 @@
+:root{
+    --grey:#e0e0e0;
+    --background:#fff;
+    --text:#1f1f1f;
+    --icon-color:#888;
+    --article-title:"Raleway variant0", Tofu;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 1em 1.5em;
+    color: #333;
+}
+.appbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.appbar img{
+    width: 1.5em;
+}
+.title{
+    margin-top: 3em;
+    font-family: var(--article-title);
+}
+.search{
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    background: var(--grey);
+    padding: .5em 1em;
+    border-radius: 1.5em;
+}
+.search i{
+    color: var(--icon-color);
+}
+#search{
+    width: 90%;
+    padding: .5em 1em;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+
+
+
+.blogs a{
+    text-decoration: none;
+    color: var(--text);
+}
+
+.article{
+    display: flex;
+    align-items: top;
+    gap: 1.5em;
+    margin: 1em .5em;
+}
+.image{
+    width: 12em;
+    height: 5em;
+    background: var(--grey);
+    color: var(--icon-color);
+    border-radius: 1.5em;
+    padding: 1em;
+}
+.date{
+    background: var(--background);
+    font-size: 90%;
+    padding: .3em;
+    width: 50%;
+    text-align: center;
+    border-radius: 1em;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    margin-top: .5em;
+}
+.reading-time{
+    color: var(--icon-color);
+    font-size: 80%;
+    letter-spacing:1px;
+}
+.blog-title{
+    font-weight: 700;
+    font-family: var(--article-title);
+    font-size: 105%;
+}
