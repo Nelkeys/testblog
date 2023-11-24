@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="appbar">
-        <i class='bx bx-menu-alt-left'></i>
+        <i class='bx bx-menu-alt-left' onclick="openOverlay()"></i>
 
         <img src="assets/image/sun-48189.png" alt="">
     </div>
@@ -78,9 +78,26 @@
 
 
 
+    <div class="overlay" onclick="closeOverlay()">
+        <div class="overlay-link">
+            <ul>
+                <li><a href="start.html">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+    
 
 
+    <script>
+        function openOverlay() {
+            document.querySelector('.overlay').style.display = "flex";
+        }
 
+        function closeOverlay() {
+            document.querySelector('.overlay').style.display = "none";
+        }
+
+    </script>
 
 
     
