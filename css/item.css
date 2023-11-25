@@ -1,7 +1,11 @@
 @import url(/css/general/style.css) all;
 
 
-
+.appbar a{
+    text-decoration: none;
+    color: var(--text);
+    font-size: 120%;
+}
 
 .article-image{
     height: 12em;
@@ -18,16 +22,21 @@
     border-radius: 4em;
     text-align: center;
     border: .5px solid #222;
+    transition: .5s ease;
+}
+.article-image a:hover{
+    background: var(--grey);
 }
 
 .article-details{
     margin-top: 2em;
 }
-.author{
-
-}
 .article-name{
     font-size: 140%;
     width: 80%;
     margin-top: .5em;
+}
+
+.write-up{
+    margin-top: 2em;
 }
