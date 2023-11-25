@@ -6,100 +6,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-sans/1.1.0/css/open-sans.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/index.css">
-    <title>Home | Blog App</title>
+    <title>Start | Blog APP</title>
 </head>
 <body>
-    <div class="appbar">
-        <i class='bx bx-menu-alt-left' onclick="openOverlay()"></i>
 
+    <div class="appbar">
         <img src="assets/image/sun-48189.png" alt="">
     </div>
-
-    <div class="title">
-        <h1>Blogs</h1>
-    </div>
-
-
-    <div class="search">
-        <i class='bx bx-search-alt' ></i>
-
-        <input type="search" name="search" id="search" placeholder="search blogs">
-
-        <i class='bx bx-filter' ></i>
-    </div>
-
-
-    <section class="blogs">
-        <a href="/item.html"><div class="article">
-            <div class="image">
-                <div class="date"><p>3 Feb</p></div>
-            </div>
-
-            <div class="details">
-                <p class="reading-time">03 mins Read</p>
-                <p class="blog-title">make design system people want to use</p>
-            </div>
-        </div></a>
-
-        <a href=""><div class="article">
-            <div class="image">
-                <div class="date"><p>3 Feb</p></div>
-            </div>
-
-            <div class="details">
-                <p class="reading-time">03 mins Read</p>
-                <p class="blog-title">make design system people want to use</p>
-            </div>
-        </div></a>
-
-        <a href=""><div class="article">
-            <div class="image">
-                <div class="date"><p>3 Feb</p></div>
-            </div>
-
-            <div class="details">
-                <p class="reading-time">03 mins Read</p>
-                <p class="blog-title">make design system people want to use</p>
-            </div>
-        </div></a>
-
-        <a href=""><div class="article">
-            <div class="image">
-                <div class="date"><p>3 Feb</p></div>
-            </div>
-
-            <div class="details">
-                <p class="reading-time">03 mins Read</p>
-                <p class="blog-title">make design system people want to use</p>
-            </div>
-        </div></a>
-    </section>
-
-
-
-
-    <div class="overlay" onclick="closeOverlay()">
-        <div class="overlay-link">
-            <ul>
-                <li><a href="start.html">Logout</a></li>
-            </ul>
-        </div>
-    </div>
     
+    <div class="write-up">
+        <p class="small">Get Started</p>
+
+        <p class="big">Passion in our own way</p>
+    </div>
 
 
-    <script>
-        function openOverlay() {
-            document.querySelector('.overlay').style.display = "flex";
-        }
-
-        function closeOverlay() {
-            document.querySelector('.overlay').style.display = "none";
-        }
-
-    </script>
+    <div class="links">
+        <a href="" class="register">Register</a>
+        <a href="home.html" class="login">Login</a>
+    </div>
 
 
-    
 </body>
 </html>

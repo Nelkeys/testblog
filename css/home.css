@@ -1,0 +1,110 @@
+@import url(/css/general/style.css) all;
+
+
+.appbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.appbar img{
+    width: 1.5em;
+}
+.title{
+    margin-top: 3em;
+    font-family: var(--article-title);
+}
+.search{
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    background: var(--grey);
+    padding: .5em 1em;
+    border-radius: 1.5em;
+}
+.search i{
+    color: var(--icon-color);
+}
+#search{
+    width: 90%;
+    padding: .5em 1em;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+
+
+
+.blogs a{
+    text-decoration: none;
+    color: var(--text);
+}
+
+.article{
+    display: flex;
+    align-items: top;
+    gap: 1.5em;
+    margin: 1em .5em;
+}
+.image{
+    width: 12em;
+    height: 5em;
+    background: var(--grey);
+    color: var(--icon-color);
+    border-radius: 1.5em;
+    padding: 1em;
+}
+.date{
+    background: var(--background);
+    font-size: 90%;
+    padding: .3em;
+    width: 50%;
+    text-align: center;
+    border-radius: 1em;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    margin-top: .5em;
+}
+.reading-time{
+    color: var(--icon-color);
+    font-size: 80%;
+    letter-spacing:1px;
+}
+.blog-title{
+    font-weight: 700;
+    font-family: var(--article-title);
+    font-size: 105%;
+}
+
+
+
+
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: var(--overback);
+    height: 100%;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.overlay ul{
+    list-style: none;
+    font-size: 130%;
+}
+.overlay ul a{
+    color: var(--background);
+    text-decoration: none;
+}
