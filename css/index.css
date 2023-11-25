@@ -118,6 +118,6 @@ body{
     font-size: 130%;
 }
 .overlay ul a{
-    color: var(--text);
+    color: var(--background);
     text-decoration: none;
 }
