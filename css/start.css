@@ -1,19 +1,6 @@
-:root{
-    --grey:#e0e0e0;
-    --background:#fff;
-    --text:#1f1f1f;
-    --icon-color:#9f9f9f;
-    --article-title:"Raleway variant0", Tofu;
-    --green:rgb(47, 160, 108);
-}
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    margin: 1.5em 1.5em;
-    color: #333;
-}
+@import url(/css/general/style.css) all;
+
+
 .appbar img{
     width: 3em;
 }

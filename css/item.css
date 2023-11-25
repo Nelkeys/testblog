@@ -1,0 +1,33 @@
+@import url(/css/general/style.css) all;
+
+
+
+
+.article-image{
+    height: 12em;
+    width: 100%;
+    background-color: var(--grey);
+    border-radius: 1em;
+    text-align:end;
+    margin-top: 3em;
+}
+
+.article-image a{
+    background: var(--background);
+    padding: 1em;
+    border-radius: 4em;
+    text-align: center;
+    border: .5px solid #222;
+}
+
+.article-details{
+    margin-top: 2em;
+}
+.author{
+
+}
+.article-name{
+    font-size: 140%;
+    width: 80%;
+    margin-top: .5em;
+}
